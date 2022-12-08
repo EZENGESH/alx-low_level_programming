@@ -1,7 +1,9 @@
 #include<stdio.h>
 /**
- * main	- entry point	
- *int main - return an integer value
+ * main-entry point
+ *
+ *program will print using puts instead of print
+ *
  * return: 0 if exited properly, non-zero otherwise
  */
 
