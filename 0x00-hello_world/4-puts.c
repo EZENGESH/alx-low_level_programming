@@ -2,9 +2,7 @@
 /**
  * main-entry point
  *
- *program will print using puts instead of print
- *
- * return: always 0 
+ * return: Always 0 (success) 
  */
 
 int main(void)
