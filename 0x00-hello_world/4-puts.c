@@ -1,5 +1,8 @@
 #include<stdio.h>
-/* using puts function to print	*/
+/**
+ * main print using puts function
+ * return 0 if exited properly	
+ */
 
 int main(void)
 {	
