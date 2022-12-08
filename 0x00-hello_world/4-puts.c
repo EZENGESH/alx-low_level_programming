@@ -4,7 +4,7 @@
  *
  *program will print using puts instead of print
  *
- * return: 0 if exited properly, non-zero otherwise
+ * return: always 0 
  */
 
 int main(void)
