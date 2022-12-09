@@ -18,7 +18,7 @@ int main(void)
 
 {	int n;
 	
-	erand(time(0));
+	srand(time(0));
 	
 	n = rand() - RAND_MAX / 2;
 	
@@ -32,7 +32,7 @@ int main(void)
 
 		printf("%d is zero\n", n);
 
-	else("%d is negative\n", n);
+	else printf("%d is negative\n", n);
 	
 	return (0);
 }
