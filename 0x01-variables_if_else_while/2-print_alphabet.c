@@ -6,13 +6,14 @@
  */
 int main (void)
 
+{
 	char c;
-	c='a';
+	c = 'a';
 	while
 		(c <= 'a') {
-			puchar(c);
+			putchar(c);
 			c++;
 		}
-	puchar("\n");
+	putchar("\n");
 	return (0);
-	
+}	
