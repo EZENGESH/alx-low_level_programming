@@ -2,7 +2,7 @@
 
 #include <time.h>
 
-#include<stadio.h>
+#include<stdio.h>
 
 /* more headers goes there */
 
