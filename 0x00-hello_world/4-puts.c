@@ -4,7 +4,7 @@
  *
  * description:uses puts to print statement
  *
- *Return:Always 0 (success) 
+ * Return: Always 0 (success)
  */
 
 int main(void)
