@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	i = %10;
+	i = i%10;
 	
 	for (i = 0; i < 100; i++)
 	{
