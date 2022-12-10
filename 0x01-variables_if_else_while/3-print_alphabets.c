@@ -14,14 +14,15 @@ int main(void)
 	c = 'a';
 	i = 'A';
 	while
-		(c <= 'z') {
+		(c <= 'z') 
+		{
 			putchar(c);
 			c++;
 		}
 	while (i <= 'Z')
 	{
-			putchar(i);
-			i++;
+		putchar(i);
+		i++;
 	}
 	putchar('\n');
 	return (0);
