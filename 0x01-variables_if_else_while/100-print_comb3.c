@@ -7,19 +7,26 @@
 
 int main(void)
 {
-	int i;
+	int i; /* ones digits */
 	
-	for (i = 0; i < 100; i++)
+	int j; /* tens digit */
+	for (i = 0; i < 10; i++)
 	{
-		putchar((i/10) + '0');
-
-		if (i < 99)
+		for (j = 0; j < 10; j++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (!((i == j) || (j > i)))
+			{
+				putchar((i/10) + '0');
+				putchar((j%10) + '0');
+				if (!(i == 9 && j == 8))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
+
 		putchar('\n');
 		return (0);
 }
-
