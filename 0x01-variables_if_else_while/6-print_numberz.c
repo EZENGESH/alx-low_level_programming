@@ -1,10 +1,9 @@
 #include<stdio.h>
 /**
- *
- * main -entry point
- *
- * Return: Always 0 (suceess)
- */
+* main -entry point
+*
+* Return: Always 0 (suceess)
+*/
 int main(void)
 {
 	int i;
