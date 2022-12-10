@@ -12,7 +12,7 @@ int main(void)
 	int j; /* tens digit */
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 10; j => 10; j++)
+		for (j = 10; j >= 10; j++)
 		{
 			if (!((i == j) || (j > i)))
 			{
