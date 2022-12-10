@@ -11,10 +11,10 @@ int main(void)
 	i = 0;
 	while 
 		(i < 10 ) {
-			patchar(i + '0');
+			putchar(i + '0');
 			i++;
 		}
-	patchar('\n');
+	putchar('\n');
 	return (0);
 }
 
