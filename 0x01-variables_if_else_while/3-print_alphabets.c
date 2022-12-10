@@ -5,7 +5,7 @@
  * Return: Always 0 (success)
  */
 
-int main(voi)
+int main(void)
 {
 	char c;
 
@@ -14,16 +14,14 @@ int main(voi)
 	c = 'a';
 	i = 'A';
 	while
-		(c = 'z') {
+		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
-	while (c = 'Z') {
+	while (c <= 'Z') {
 			putchar(i);
 			i++;
 		}
 	putchar('\n');
 	return (0);
-
-
-
+}
