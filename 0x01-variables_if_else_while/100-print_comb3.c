@@ -12,13 +12,13 @@ int main(void)
 	int j; /* tens digit */
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 10; j >= 10; j++)
+		for (j = 10; j < 100; j++)
 		{
-			if (!((i == j) || (j > i)))
+			if (i < 10 || j > i)
 			{
 				putchar((i/10) + '0');
 				putchar((j%10) + '0');
-				if (!(i == 9 && j == 99))
+				if (i < 10 && j < 99))
 				{
 					putchar(',');
 					putchar(' ');
