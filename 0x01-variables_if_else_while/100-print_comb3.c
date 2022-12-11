@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - entry piont
  *
@@ -10,19 +12,20 @@ int main(void)
 	int i;	
 	int j;
 	
-	for (i = 0; i <= 9; i++)
+	for (i = 0; i < 9; i++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (j = i + 1; j <= 9; j++)
 		{
-			if (!((i == j) || (j > i)))
+			if (j != i)
 			{
-			putchar(i + '0');
-			putchar(j + '0');
-				if (i > 0 && j < 100)
-				{
+			putchar(i);
+			putchar(j);
+				if (i == 8 && j == 9)
+					continue;
+				
 					putchar(',');
 					putchar(' ');
-				}
+				
 			}
 		}
 	}
