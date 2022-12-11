@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
  * main - entry point
  *
  * Return: Always 0 (success)
@@ -22,7 +22,7 @@ int main(void)
 					putchar(b);
 					putchar(c);
 
-					if ( a == '7' && b == '8')
+					if (a == '7' && b == '8')
 						continue;
 
 					putchar(',');
@@ -32,5 +32,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
