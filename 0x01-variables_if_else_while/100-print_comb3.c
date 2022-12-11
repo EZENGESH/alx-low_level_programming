@@ -6,27 +6,23 @@
  */
 
 int main(void)
-
-	int ones = '0';	
-	int tens = '0';
+{
+	int i;	
+	int j;
 	
-	for (ones = '0'; ones <= '9'; ones++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (tens = '0'; tens <= '9'; tens++)
+		for (j = 10; j <= 99; j++)
 		{
-			if (!((ones == tens) || (tens > ones)))
-			{
-				putchar(ones);
-				puthcar(tens);
-				if (!((ones == '9' && tens == '8')
+			putchar(i % 10 + '0');
+			puthcar(j + '0');
+				if (i < 10 && j < 99)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
 		}
-	}
-
 		putchar('\n');
 		return (0);
 }
