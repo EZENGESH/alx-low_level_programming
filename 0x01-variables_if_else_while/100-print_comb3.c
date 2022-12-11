@@ -7,18 +7,17 @@
 
 int main(void)
 {
-	int i; /* ones digits */
-	
-	int j; /* tens digit */
-	for (i = 0; i < 10; i++)
+	int ones = n /10;	
+	int tens = n % 10;
+	for (ones = 0; ones < 10; ones++)
 	{
-		for (j = 10; j < 100; j++)
+		for (tens = 10; tens < 100; tens++)
 		{
-			if (i < 10 || j > i)
+			if (ones < 10 || tens > ones)
 			{
-				putchar((i/10) + '0');
-				putchar((j%10) + '0');
-				if (i < 10 && j < 99))
+				putchar(n + '0');
+						
+					if (n < 10 && n < 99))
 				{
 					putchar(',');
 					putchar(' ');
