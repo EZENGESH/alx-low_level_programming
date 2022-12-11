@@ -12,7 +12,7 @@ int main(void)
 	int i;	
 	int j;
 	
-	for (i = 0; i < 9; i++)
+	for (i = '0'; i < '9'; i++)
 	{
 		for (j = i + 1; j <= 9; j++)
 		{
@@ -20,11 +20,11 @@ int main(void)
 			{
 			putchar(i);
 			putchar(j);
-				if (i == 8 && j == 9)
-					continue;
+			if (i =='8' && j =='9')
+				continue;
 				
-					putchar(',');
-					putchar(' ');
+			putchar(',');
+			putchar(' ');
 				
 			}
 		}
