@@ -6,19 +6,19 @@
  */
 
 int main(void)
-{
-	int n;
-	int ones = n /10;	
-	int tens = n % 10;
+
+	int ones = '0';	
+	int tens = '0';
 	
-	for (ones = 0; ones < 10; ones++)
+	for (ones = '0'; ones <= '9'; ones++)
 	{
-		for (tens = 10; tens < 100; tens++)
+		for (tens = '0'; tens <= '9'; tens++)
 		{
-			if (ones < 10 || tens > ones)
+			if (!((ones == tens) || (tens > ones)))
 			{
-				putchar(n + '0');
-				if (n < 10 && n < 99)
+				putchar(ones);
+				puthcar(tens);
+				if (!((ones == '9' && tens == '8')
 				{
 					putchar(',');
 					putchar(' ');
