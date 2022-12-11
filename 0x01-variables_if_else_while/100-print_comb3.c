@@ -7,9 +7,10 @@
 
 int main(void)
 {
+	int n;
 	int ones = n /10;	
 	int tens = n % 10;
-	int n;
+	
 	for (ones = 0; ones < 10; ones++)
 	{
 		for (tens = 10; tens < 100; tens++)
