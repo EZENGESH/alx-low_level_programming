@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * main print _putchar
- *
  * written by Ezzy
  * Return: 0
  */
