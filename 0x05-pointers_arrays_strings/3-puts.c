@@ -8,9 +8,9 @@
  */
 void _puts(char *str)
 {
-	char *str;
-
-	str = "I do not fear computers. I fear the lack of them";
-	_puts(str);
-	return (0);
+	while (str != '\0')
+	{
+		_putchar(str++);
+	}
+	_putchar('\n');
 }
