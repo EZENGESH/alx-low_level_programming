@@ -6,7 +6,7 @@
  * @src: The string to be appended to dest
  * Return: Return the pointer to dest
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int index = 0, dest_len=0;
 	
